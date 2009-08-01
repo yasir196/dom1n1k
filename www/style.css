@@ -1,0 +1,106 @@
+body {
+	background: #8DCE2A;
+	margin: 0px;
+}
+
+* {
+	font: 11px tahoma;
+	color: #000;
+}
+
+#header a {
+	display: block;
+	width: 800px;
+	height: 100px;
+	background: url('header.jpg');
+	margin: auto;
+}
+
+#margin {
+	padding: 10px;
+}
+
+#content {
+	width: 600px;
+	margin: auto;
+	background: #fff;
+}
+
+#footer {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+	background: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*
+ * The Forms 
+ */
+ 
+form {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+input {
+	border: 1px solid #999;
+	padding: 2px;
+	margin-bottom: 2px;
+	background: #fff;
+}
+
+/*
+ * Other
+*/
+
+h1 {
+	margin: 0px;
+	padding: 0px;
+	
+	font: 14px Verdana;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p {
+	margin: 0px;
+	padding: 5px;
+}
+
+.pogrub {
+	font-weight: bold;
+	display: inline;
+}
+
+.mp3_result a {
+	display: block;
+	width: 95%;
+	padding: 5px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	margin-top: 4px;
+}
+
+.mp3_result a:hover {
+	border: 1px solid #999;
+}
+
+.infobar {
+	font: 10px Tahoma;
+	color: #999;
+	text-align: center;
+}
+
+#download_button a {
+	display: block;
+	padding: 5px;
+	margin: auto;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid #dbdbdb;
+	background: #f1f1f1;
+}
